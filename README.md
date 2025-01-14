@@ -26,8 +26,18 @@ I use this platform to share what I’ve achieved and to explore challenges I’
 [Future improvement](Future_Improvement.md)
 
 ## Features
+Classification model
+
+Logistic Regression
+
+Neural Network
+
+Adaboost
+
 
 ## Technologies Used
+TensorFlow
+Pytorch
 
 ## Contact
 

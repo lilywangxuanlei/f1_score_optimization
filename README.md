@@ -25,3 +25,9 @@ I use this platform to share what I’ve achieved and to explore challenges I’
 
 [Future improvement](Future_Improvement.md)
 
+## Features
+
+## Technologies Used
+
+## Contact
+

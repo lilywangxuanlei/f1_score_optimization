@@ -10,11 +10,18 @@ I use this platform to share what I’ve achieved and to explore challenges I’
 
 ## Table of Contents
 [Methods](Methods.md)
+
 [Logistic Regression](Logistic_Regression.md)
+
 [Neural_Network](Neural_Network.md)
+
 [Adaboost](Adaboost.md)
+
 [Datasets](Datasets.md)
+
 [Result](Test_Result.md)
+
 [Discussion](Discussion.md)
+
 [Future improvement](Future_Improvement.md)
 

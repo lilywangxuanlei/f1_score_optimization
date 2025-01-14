@@ -37,7 +37,23 @@ Adaboost
 
 ## Technologies Used
 TensorFlow
+
 Pytorch
 
+Numpy
+
+Scikit-learn
+
+Matplotlib
+
+Pandas
+
 ## Contact
+Name: Xuanlei (Lily) Wang
+
+Email: lilywang9280[at]gmail[dot]com
+
+LinkedIn: www.linkedin.com/in/xuanlei-wang-a0370a22b
+
+GitHub: https://github.com/lilywangxuanlei
 

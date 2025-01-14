@@ -10,5 +10,5 @@ I use this platform to share what I’ve achieved and to explore challenges I’
 
 ## Table of Contents
 [Methods](Methods.md)
-- 
+
 

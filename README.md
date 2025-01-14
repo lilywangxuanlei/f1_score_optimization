@@ -1,5 +1,5 @@
 # Implement F-1 score as objective function
-This project focuses on designing and implementing a novel approach to optimize machine learning models using the F-1 score as the objective function, addressing the challenges posed by its discrete nature. 
+This project focuses on designing and implementing a novel approach to optimize machine learning models using the F-1 score as the objective function, addressing the challenges posed by its discrete nature. This method will be referred as 'F1 method' throughout the project and documents for clarity purposes.
 
 ## Description
 This project focuses on designing and implementing a novel approach to optimize machine learning models using the F-1 score as the objective function, addressing the challenges posed by its discrete nature. By leveraging the F-1 score, the method ensures a balanced trade-off between recall and precision, making it particularly suitable for imbalanced datasets. This approach was tested across multiple models, including Logistic Regression, Neural Networks, and Adaboost, using different kind of data set. The results have demonstrated that this method has measurable improvements in performance metrics compared to traditional cross-entropy-based methods.

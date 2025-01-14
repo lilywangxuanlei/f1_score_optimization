@@ -25,7 +25,7 @@ Recall=TP/(TP+FN)
 
 F1 Score=2*(Precision * Recall )/(Precision +Recall) 
 
-F1 Score (in terms of TP,FP,TN)=2*TP/(2*TP+FP+FN) 
+F1 Score (in terms of TP,FP,TN)=2*TP/(2 *TP+FP+FN) 
 
 It is important to notice: the F-1 score generated here should be output as the opposite of the value. When using gradient descent backpropagation, to minimize F-1 score loss is to maximize F-1 score. 
 Since TP, FP, and FN are all approximated by probabilities, it is continuous differentiable, F1 score function will also be continuous and differentiable. Thus, we wo

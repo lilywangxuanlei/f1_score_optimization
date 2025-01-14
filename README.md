@@ -9,7 +9,6 @@ However, some challenging parts are yet to be addressed. Possible improvements w
 I use this platform to share what I’ve achieved and to explore challenges I’m still working to solve. I’m always open to feedback and collaboration—feel free to reach out if you’d like to discuss ways to improve my projects together!
 
 ## Table of Contents
--[Methods](#methods.md)
-
+[Methods](methods.md)
 - 
 

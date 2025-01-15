@@ -9,6 +9,8 @@
 
   When tested on an imbalanced dataset, the average F-1 score is 0.8890, with the score of each fold being 0.9013, 0.8805, 0.9072, 0.8815, and 0.8746.
 
+[code](Neural_Network_f1.py)
+
 ## Cross-entropy
 
   In this model, loss function is BCEWithLogitsLoss () from Torch library.
@@ -16,6 +18,8 @@
   When testing a balanced dataset, the average F-1 score is 0.9261, with the score of each fold being 0.9320, 0.9203, 0.9357, 0.9201, and 0.9224.
 
   When testing an imbalanced dataset, the average F-1 score is 0.8709, with the score of each fold being 0.8805 0.8601, 0.8630, 0.8966, and 0.8545.
+
+  [code](Neural_network_cross_entropy_hw5.py)
 
 ## Observation and Interpretation
 

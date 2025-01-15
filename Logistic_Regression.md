@@ -21,6 +21,8 @@ When tested on a balanced dataset, the average F-1 score is 0.8235, with the sco
 
 When tested on an imbalanced dataset, the average F-1 score is 0.7315, with the score of each fold being 0.7318, 0.7425, 0.7121, 0.6633, and 0.8076.
 
+[code](Logistic_regression_cross_entropy.py) 
+
 ## Observation and Interpretation
 
 Supported by the data, F-1 method performed 12.24% better than cross-entropy method on balanced data and 31.34% better on imbalanced data. F-1 method generally has a better performance and works very well on imbalanced data set. This is because when the model uses cross-entropy as a loss function, it treats all errors equally, without considering the class distribution. In other words, the model prioritizes the majority class, minimizing overall loss, without trying to minimize FP, or FN. This is easy to understand by observing the equation. The loss function evaluates only on the predicted probability of the true class, ignoring the probabilities for the incorrect classes. F-1 method on the other hand, focuses on minority class, in a way that it also penalizes the model when FP and FN present.  

@@ -1,9 +1,12 @@
 ## Introduction
 
 In neural network, each artificial neuron receives signals from connected neurons, then processes them and sends a signal to other connected neurons. The "signal" is a real number, and the output of each neuron is computed activation function. The strength of the signal at each connection is determined by a weight, which adjusts during the learning process (Wikipedia 2024). I defined the NN model with a residual connection between layers to help mitigate vanishing gradients and improve training. The network structure consists of one input layer, two hidden layers, each with 20 neurons and ReLU activations, and one output layer for binary classification. Predictions are made by applying a sigmoid activation to the logits and thresholding at 0.5. The loss function is customized to align with the approach of F-1 method or traditional method. Both models use Adam Optimizer to minimizing loss, with learning rate of 0.001 and are trained for 50 Epochs. Model used cross-validation to prevent over-fitting, and within each fold, it is trained using mini batches (size 32). 
-F-1 Method
+## F-1 Method
+
 In this model, the loss function is approximated F1-score as demonstrated earlier. Since Neural Network (NN) is a well-developed deep learning model, the primary customization was its loss function.  
+
 When tested on a balanced dataset, the average F-1 score is 0.9416, with the score of each fold being 0.9389, 0.9324, 0.9417, 0.9573, and 0.9374.
+
 When tested on an imbalanced dataset, the average F-1 score is 0.8890, with the score of each fold being 0.9013, 0.8805, 0.9072, 0.8815, and 0.8746.
 
 ## Cross-entropy

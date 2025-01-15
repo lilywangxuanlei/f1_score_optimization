@@ -23,7 +23,7 @@ I use this platform to share what I’ve achieved and to explore challenges I’
 
 [Discussion](Discussion.md)
 
-[Future improvement](Future_Improvement.md)
+[Future improvement](Future_improvement.md)
 
 ## Features
 Classification model

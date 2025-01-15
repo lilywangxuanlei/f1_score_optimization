@@ -13,6 +13,8 @@ When testing a balanced dataset, the average F-1 score is 0.9139, with the score
 
 When testing an imbalanced dataset, the average F-1 score is 0.8478, with the score of each fold being 0.8589, 0.8350, 0.8660, 0.8440, and 0.8349.
 
+[code](Adaboost_f1.py)
+
 ## Original Method
 Adaboost function from scikit-learn library was implemented.
  
@@ -20,12 +22,16 @@ When testing a balanced dataset, the average F-1 score is 0.9519, with the score
 
 When testing an imbalanced dataset, the average F-1 score is 0.9198, with the score of each fold being 0.9231, 0.9174, 0.9132, 0.9302, and 0.9151.
 
+[code](Adaboost_og.py)
+
 ## Cross-entropy 
 When trying to customize the model with cross-entropy as objective function, I struggled with updating sample weight, alpha effectively and processing logits or predictions incorrectly. 
  
 When testing a balanced dataset, the average F-1 score is 0.0895, with the score of each fold being 0.0980, 0.1095, 0.0667, 0.0864, and 0.0871.
 
 When testing an imbalanced dataset, the average F-1 score is 0.0575, with the score of each fold being 0.0458, 0.0896, 0.0348, 0.0617, and 0.0554.
+
+[code](Adaboost_Cross_entropy.py)
 
 ## Observation and Interpretation
 
